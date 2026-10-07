@@ -1,0 +1,22 @@
+Stage 9 A/B completed-run verification: 2026-10-07 (Asia/Shanghai)
+Run: stage9_ab_20261007_164005_806793
+Console source: student-provided attachment C:\Users\14235\.codex\attachments\1d00d1a2-5d30-4e80-8e71-25c376943c45\已粘贴的文本.txt
+The tutor did not execute or repeat the training/evaluation.
+PASS: CUDA configuration and saved split SHA256 match the planned experiment.
+PASS: 10 epoch summaries match saved JSON, including rounded losses/accuracies and best epoch.
+PASS: per-epoch training progress reaches batch 5000; evaluations cover 40000 train/10000 validation.
+PASS: each group completes 5 epochs and records 25000 optimizer steps.
+PASS: every saved accuracy equals correct_count / image_count.
+PASS: comparison.json matches both histories; B minus A best validation = -2.45 percentage points.
+PASS: four checkpoints strictly load on CPU; 8 tensors, 136874 values each; all finite.
+PASS: best and last parameter tensors are identical within each group (best epoch=5).
+PASS: A and B final parameters differ.
+PASS: protected input/result/checkpoint SHA256 values unchanged by this read-only verification.
+Scope: no image loading/model forward/backward/optimizer step/test evaluation/new training.
+Written artifacts: exact student console copy, this report, curves from real saved metrics.
+Learning status at initial verification: experiment-result interpretation had not yet been checked with the student.
+Learning status update (2026-10-07, per PROJECT_HANDOFF.md and the student's continuation instruction): the current result-analysis check has passed; there are no unanswered required questions. This does not establish mastery of all augmentation mechanisms or implementation details.
+A_no_aug: best_epoch=5; train=72.0875%; validation=65.63%; gap=6.4575 pp; validation_loss=0.992373
+A_no_aug validation accuracy by epoch: 51.91%, 58.29%, 61.78%, 64.69%, 65.63%
+B_crop_flip: best_epoch=5; train=63.3975%; validation=63.18%; gap=0.2175 pp; validation_loss=1.051757
+B_crop_flip validation accuracy by epoch: 43.84%, 54.67%, 58.23%, 61.77%, 63.18%

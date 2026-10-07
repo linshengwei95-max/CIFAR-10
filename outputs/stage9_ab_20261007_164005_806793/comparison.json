@@ -1,0 +1,42 @@
+{
+  "selection_rule": "Highest validation accuracy; ties keep the earlier epoch",
+  "groups": {
+    "A_no_aug": {
+      "best_epoch": 5,
+      "best_val_accuracy": 0.6563,
+      "final_epoch": {
+        "epoch": 5,
+        "mean_training_loss": 0.9052976582184434,
+        "train_evaluation_loss": 0.7968907782137394,
+        "train_accuracy": 0.720875,
+        "train_correct": 28835,
+        "train_images": 40000,
+        "val_evaluation_loss": 0.992373244202137,
+        "val_accuracy": 0.6563,
+        "val_correct": 6563,
+        "val_images": 10000
+      },
+      "best_checkpoint": "checkpoints\\stage9_ab_20261007_164005_806793\\A_no_aug_best.pth",
+      "last_checkpoint": "checkpoints\\stage9_ab_20261007_164005_806793\\A_no_aug_last.pth"
+    },
+    "B_crop_flip": {
+      "best_epoch": 5,
+      "best_val_accuracy": 0.6318,
+      "final_epoch": {
+        "epoch": 5,
+        "mean_training_loss": 1.2021396724134683,
+        "train_evaluation_loss": 1.0292479288190604,
+        "train_accuracy": 0.633975,
+        "train_correct": 25359,
+        "train_images": 40000,
+        "val_evaluation_loss": 1.0517574363589286,
+        "val_accuracy": 0.6318,
+        "val_correct": 6318,
+        "val_images": 10000
+      },
+      "best_checkpoint": "checkpoints\\stage9_ab_20261007_164005_806793\\B_crop_flip_best.pth",
+      "last_checkpoint": "checkpoints\\stage9_ab_20261007_164005_806793\\B_crop_flip_last.pth"
+    }
+  },
+  "B_minus_A_best_validation_percentage_points": -2.4499999999999966
+}

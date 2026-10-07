@@ -1,0 +1,50 @@
+{
+  "run_name": "stage12_lr_20261007_195820_358131",
+  "started_at": "2026-10-07T19:58:20.358131+08:00",
+  "python": "C:\\Users\\14235\\anaconda3\\envs\\pytorch_dev\\python.exe",
+  "torch_version": "2.13.0+cu130",
+  "torchvision_version": "0.28.0+cpu",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "model": "CIFAR_ResNet18",
+  "variable": "Adam learning rate",
+  "groups": [
+    {
+      "name": "A_lr_0p001",
+      "learning_rate": 0.001
+    },
+    {
+      "name": "B_lr_0p0003",
+      "learning_rate": 0.0003
+    }
+  ],
+  "split_file": "outputs\\stage9_split_seed42.json",
+  "split_sha256": "f779d45a789abda16052bdd7c72f46e6e5e3c66d2fc12a1ad755eaa6762abb7d",
+  "train_images": 40000,
+  "validation_images": 10000,
+  "batch_size": 8,
+  "epochs": 5,
+  "num_workers": 0,
+  "batches_per_epoch": 5000,
+  "initialization_seed": 42,
+  "sample_order_seed": 43,
+  "shared_initial_state_sha256": "cc6df99241950b05dd04b44d2f1dc3e69433f2cafdb674394c45f66612fc9650",
+  "initialization_note": "Both groups copy the same new initial parameters and BatchNorm state",
+  "optimizer": "Adam (new optimizer for each group)",
+  "loss": "CrossEntropyLoss",
+  "transform": "ToTensor",
+  "augmentation": null,
+  "normalization": null,
+  "selection_rule": "Highest validation accuracy; ties keep the earlier epoch",
+  "cudnn_benchmark": false,
+  "cudnn_deterministic": true,
+  "historical_reference": {
+    "source_run": "stage10_compare_20261007_181857_108622",
+    "model": "CIFAR_ResNet18",
+    "best_epoch": 5,
+    "best_val_accuracy": 0.8137,
+    "scope": "Historical record; the current A and B groups both train afresh"
+  },
+  "timing_scope": "Training loop only; CUDA synchronized; evaluation and saving excluded",
+  "scope": "Student-selected learning-rate comparison; no official test-set use"
+}

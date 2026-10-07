@@ -1,0 +1,35 @@
+{
+  "variable": "Adam learning rate",
+  "selection_rule": "Highest validation accuracy; ties keep the earlier epoch",
+  "shared_initial_state_sha256": "cc6df99241950b05dd04b44d2f1dc3e69433f2cafdb674394c45f66612fc9650",
+  "groups": {
+    "A_lr_0p001": {
+      "learning_rate": 0.001,
+      "parameter_count": 11173962,
+      "initial_state_sha256": "cc6df99241950b05dd04b44d2f1dc3e69433f2cafdb674394c45f66612fc9650",
+      "best_epoch": 5,
+      "best_val_accuracy": 0.8137,
+      "epochs_completed": 5,
+      "optimizer_steps": 25000,
+      "total_training_seconds": 331.86965070001315,
+      "mean_epoch_training_seconds": 66.37393014000263,
+      "best_checkpoint": "checkpoints\\stage12_lr_20261007_195820_358131\\A_lr_0p001_best.pth",
+      "last_checkpoint": "checkpoints\\stage12_lr_20261007_195820_358131\\A_lr_0p001_last.pth"
+    },
+    "B_lr_0p0003": {
+      "learning_rate": 0.0003,
+      "parameter_count": 11173962,
+      "initial_state_sha256": "cc6df99241950b05dd04b44d2f1dc3e69433f2cafdb674394c45f66612fc9650",
+      "best_epoch": 5,
+      "best_val_accuracy": 0.8246,
+      "epochs_completed": 5,
+      "optimizer_steps": 25000,
+      "total_training_seconds": 328.50417989993,
+      "mean_epoch_training_seconds": 65.70083597998601,
+      "best_checkpoint": "checkpoints\\stage12_lr_20261007_195820_358131\\B_lr_0p0003_best.pth",
+      "last_checkpoint": "checkpoints\\stage12_lr_20261007_195820_358131\\B_lr_0p0003_last.pth"
+    }
+  },
+  "B_minus_A_best_validation_percentage_points": 1.090000000000002,
+  "scope": "One paired comparison under the recorded fixed conditions"
+}

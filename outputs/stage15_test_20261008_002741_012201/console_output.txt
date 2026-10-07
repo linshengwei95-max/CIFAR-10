@@ -1,0 +1,16 @@
+Run directory: E:\CIFAR-10\outputs\stage15_test_20261008_002741_012201
+Device: cuda | NVIDIA GeForce RTX 5060 Laptop GPU
+Source run: stage12_lr_20261007_195820_358131 | Group: B_lr_0p0003
+Loaded checkpoint: E:\CIFAR-10\checkpoints\stage12_lr_20261007_195820_358131\B_lr_0p0003_best.pth
+Selected epoch: 5
+Recorded validation accuracy: 82.46%
+Official test images: 10000 | Batches: 1250
+Official test evaluation | Batch 1/1250 | Images evaluated: 8
+Official test evaluation | Batch 1000/1250 | Images evaluated: 8000
+Official test evaluation | Batch 1250/1250 | Images evaluated: 10000
+First batch: {"images_shape": [8, 3, 32, 32], "logits_shape": [8, 10], "model_training": false, "grad_enabled": false, "logits_requires_grad": false, "labels_shape": [8], "labels_dtype": "torch.int64"}
+Test correct: 8148/10000 | Errors: 1852
+Test mean loss: 0.550410 | Test accuracy: 81.48%
+Test minus validation: -0.98 percentage points
+Model state and protected files unchanged: True
+Results saved to: E:\CIFAR-10\outputs\stage15_test_20261008_002741_012201

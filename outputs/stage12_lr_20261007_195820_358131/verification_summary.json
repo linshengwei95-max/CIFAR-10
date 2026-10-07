@@ -1,0 +1,72 @@
+{
+  "run": "stage12_lr_20261007_195820_358131",
+  "findings": [],
+  "completed_epoch_summaries": 10,
+  "shared_initial_state_sha256": "cc6df99241950b05dd04b44d2f1dc3e69433f2cafdb674394c45f66612fc9650",
+  "split_sha256": "f779d45a789abda16052bdd7c72f46e6e5e3c66d2fc12a1ad755eaa6762abb7d",
+  "archive_best_last_equal": {
+    "A_lr_0p001": true,
+    "B_lr_0p0003": true
+  },
+  "A_non_timing_metrics_match_stage10": true,
+  "B_minus_A_percentage_points": 1.090000000000002,
+  "B_minus_A_correct_images": 109,
+  "groups": {
+    "A_lr_0p001": {
+      "learning_rate": 0.001,
+      "best_epoch": 5,
+      "best_accuracy": 0.8137,
+      "final_train_accuracy": 0.923975,
+      "final_validation_loss": 0.569245707331784,
+      "mean_training_seconds": 66.37393014000263,
+      "val_accuracy_history": [
+        0.6394,
+        0.7481,
+        0.7846,
+        0.8071,
+        0.8137
+      ]
+    },
+    "B_lr_0p0003": {
+      "learning_rate": 0.0003,
+      "best_epoch": 5,
+      "best_accuracy": 0.8246,
+      "final_train_accuracy": 0.939575,
+      "final_validation_loss": 0.5250091591117904,
+      "mean_training_seconds": 65.70083597998601,
+      "val_accuracy_history": [
+        0.6602,
+        0.7578,
+        0.7903,
+        0.8136,
+        0.8246
+      ]
+    }
+  },
+  "protected_hashes": {
+    "AGENTS.md": "9572e12e8a2e2084a83e04bff449b020fcc72bd24b67518026a17471dabfa396",
+    "stage12_compare_lr.py": "9de6432ca490ff6934920dbb231cfc83320981784d44296192f8c49d5c52ace8",
+    "stage10_train_compare.py": "79933b394242510a80cd56a60992d83b5bf43af3e948b2ebaa74e1b9f10272e5",
+    "stage9_train_ab.py": "c84434e85c81fe08361052dbb2afc1b0d10986a34df395dfc93132760deb7600",
+    "stage6_evaluate.py": "be4f8ab83ee2f95da0a55036b7e50c6795e5f3cc014c3f92f2ec8cdd14e272b4",
+    "models/resnet18_cifar.py": "c13a9d7f941969456acc20c0d9f5f2311d2b4fd1958e8139649ae5455f74f77f",
+    "outputs/stage9_split_seed42.json": "f779d45a789abda16052bdd7c72f46e6e5e3c66d2fc12a1ad755eaa6762abb7d",
+    "outputs/stage10_compare_20261007_181857_108622/config.json": "dea280daee9dd8ddafd1bfb3e91973cfcc38e6a291f1bd8e20fb4ab8bd9c3ac1",
+    "outputs/stage10_compare_20261007_181857_108622/CIFAR_ResNet18_metrics.json": "527ae836bed7ffc99dd7f6a7270b33330beb4bf68d17bb1b56e7a0f9ceac51e8",
+    "checkpoints/stage10_compare_20261007_181857_108622/CIFAR_ResNet18_best.pth": "b22068752125568113005af6977e125740c86447391c3d21a618817ec135a6c2",
+    "outputs/stage11_confusion_20261007_192127_802251/confusion.json": "48f21490dd26583e85971705e33dd634e289620e99fa9c10fdfeca4f2a496d79",
+    "outputs/stage11_confusion_20261007_192127_802251/confusion_matrix.png": "eadc8d100386cdb46f438a4b588513b481ff1f3ef3105bfdb5c12145eef67870",
+    "outputs\\stage12_lr_20261007_195820_358131\\config.json": "9dd143039c5c2fdf3d61e14adefaaa3bf598afdc047bc40032b0ac7a203c4115",
+    "outputs\\stage12_lr_20261007_195820_358131\\comparison.json": "158b129418358f0ae004e2d22a1c8d750f53929e702d1337bfc29ea03c35a3da",
+    "outputs\\stage12_lr_20261007_195820_358131\\A_lr_0p001_metrics.json": "6941006710c6b597d0a6beba0c66ac8c54ed01ba71640705fa84937f1a051833",
+    "outputs\\stage12_lr_20261007_195820_358131\\B_lr_0p0003_metrics.json": "71f2e23cc0495fee13ef2b53745e27a81aa7f3849128ff02f511ab9569d17b76",
+    "checkpoints\\stage12_lr_20261007_195820_358131\\A_lr_0p001_best.pth": "8f592195f873cfed7eb203e5a7a01e5e380418fcb3b42726c02e8451e3576249",
+    "checkpoints\\stage12_lr_20261007_195820_358131\\A_lr_0p001_last.pth": "e410801e1e5c79328decf1ab958b1929167211493cfcaa98eadef7dab108124e",
+    "checkpoints\\stage12_lr_20261007_195820_358131\\B_lr_0p0003_best.pth": "eb8780947706e1e3fb37cbf32584908aa6acf029ebf89cdc1287b17599a28c06",
+    "checkpoints\\stage12_lr_20261007_195820_358131\\B_lr_0p0003_last.pth": "407bcfc2b0bc305c509e6d78eba1c1e491345a8c006ed3ef99e738d52b452c80"
+  },
+  "scope": "Read-only logs, JSON and ZIP payload inspection; no torch import, weight deserialization or model execution",
+  "console_bytes_match_attachment": true,
+  "figure": "E:\\CIFAR-10\\outputs\\stage12_lr_20261007_195820_358131\\learning_rate_validation_curves.png",
+  "summary_file": "E:\\CIFAR-10\\outputs\\stage12_lr_20261007_195820_358131\\verification_summary.json"
+}

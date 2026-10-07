@@ -1,0 +1,71 @@
+{
+  "group": "B_crop_flip",
+  "history": [
+    {
+      "epoch": 1,
+      "mean_training_loss": 1.7160852566957474,
+      "train_evaluation_loss": 1.5272825910449028,
+      "train_accuracy": 0.43445,
+      "train_correct": 17378,
+      "train_images": 40000,
+      "val_evaluation_loss": 1.5207041582584382,
+      "val_accuracy": 0.4384,
+      "val_correct": 4384,
+      "val_images": 10000
+    },
+    {
+      "epoch": 2,
+      "mean_training_loss": 1.4544495129168034,
+      "train_evaluation_loss": 1.2597520205318928,
+      "train_accuracy": 0.545725,
+      "train_correct": 21829,
+      "train_images": 40000,
+      "val_evaluation_loss": 1.261118187713623,
+      "val_accuracy": 0.5467,
+      "val_correct": 5467,
+      "val_images": 10000
+    },
+    {
+      "epoch": 3,
+      "mean_training_loss": 1.3426968367338181,
+      "train_evaluation_loss": 1.1693256998479367,
+      "train_accuracy": 0.5776,
+      "train_correct": 23104,
+      "train_images": 40000,
+      "val_evaluation_loss": 1.177576849269867,
+      "val_accuracy": 0.5823,
+      "val_correct": 5823,
+      "val_images": 10000
+    },
+    {
+      "epoch": 4,
+      "mean_training_loss": 1.259095536237955,
+      "train_evaluation_loss": 1.0635883420169354,
+      "train_accuracy": 0.62135,
+      "train_correct": 24854,
+      "train_images": 40000,
+      "val_evaluation_loss": 1.077621116375923,
+      "val_accuracy": 0.6177,
+      "val_correct": 6177,
+      "val_images": 10000
+    },
+    {
+      "epoch": 5,
+      "mean_training_loss": 1.2021396724134683,
+      "train_evaluation_loss": 1.0292479288190604,
+      "train_accuracy": 0.633975,
+      "train_correct": 25359,
+      "train_images": 40000,
+      "val_evaluation_loss": 1.0517574363589286,
+      "val_accuracy": 0.6318,
+      "val_correct": 6318,
+      "val_images": 10000
+    }
+  ],
+  "best_epoch": 5,
+  "best_val_accuracy": 0.6318,
+  "best_checkpoint": "checkpoints\\stage9_ab_20261007_164005_806793\\B_crop_flip_best.pth",
+  "last_checkpoint": "checkpoints\\stage9_ab_20261007_164005_806793\\B_crop_flip_last.pth",
+  "epochs_completed": 5,
+  "optimizer_steps": 25000
+}

@@ -1,0 +1,77 @@
+{
+  "release_tag": "v1.0.0",
+  "archive": "cifar10-checkpoints-v1.0.0.zip",
+  "checkpoint_count": 13,
+  "checkpoint_bytes": 272518013,
+  "selected_checkpoint": "checkpoints/stage12_lr_20261007_195820_358131/B_lr_0p0003_best.pth",
+  "selected_model_validation_accuracy": 0.8246,
+  "selected_model_official_test_accuracy": 0.8148,
+  "scope": "All existing stage5, stage9, stage10 and stage12 model weights; no new training",
+  "files": [
+    {
+      "path": "checkpoints/stage10_compare_20261007_181857_108622/CIFAR_ResNet18_best.pth",
+      "bytes": 44776587,
+      "sha256": "b22068752125568113005af6977e125740c86447391c3d21a618817ec135a6c2"
+    },
+    {
+      "path": "checkpoints/stage10_compare_20261007_181857_108622/CIFAR_ResNet18_last.pth",
+      "bytes": 44776587,
+      "sha256": "951ebeea8e1a0668e959369bb3cb106efd25255eba01f063d887e4539e5eccad"
+    },
+    {
+      "path": "checkpoints/stage10_compare_20261007_181857_108622/SimpleCNN_best.pth",
+      "bytes": 551471,
+      "sha256": "3ada90e650d27b82642a78d578e65397685ee6c0007f343f985491686a707643"
+    },
+    {
+      "path": "checkpoints/stage10_compare_20261007_181857_108622/SimpleCNN_last.pth",
+      "bytes": 551471,
+      "sha256": "9460431617bddd2a5ab931d5ce5a9186d0bb69d49a3bc53d45dc2e649c0bab34"
+    },
+    {
+      "path": "checkpoints/stage12_lr_20261007_195820_358131/A_lr_0p001_best.pth",
+      "bytes": 44776075,
+      "sha256": "8f592195f873cfed7eb203e5a7a01e5e380418fcb3b42726c02e8451e3576249"
+    },
+    {
+      "path": "checkpoints/stage12_lr_20261007_195820_358131/A_lr_0p001_last.pth",
+      "bytes": 44776075,
+      "sha256": "e410801e1e5c79328decf1ab958b1929167211493cfcaa98eadef7dab108124e"
+    },
+    {
+      "path": "checkpoints/stage12_lr_20261007_195820_358131/B_lr_0p0003_best.pth",
+      "bytes": 44776203,
+      "sha256": "eb8780947706e1e3fb37cbf32584908aa6acf029ebf89cdc1287b17599a28c06"
+    },
+    {
+      "path": "checkpoints/stage12_lr_20261007_195820_358131/B_lr_0p0003_last.pth",
+      "bytes": 44776203,
+      "sha256": "407bcfc2b0bc305c509e6d78eba1c1e491345a8c006ed3ef99e738d52b452c80"
+    },
+    {
+      "path": "checkpoints/stage5_last.pth",
+      "bytes": 551429,
+      "sha256": "f523396c58a7e30c3227dda77553f606f24a25f48374ec645620138953fdd27e"
+    },
+    {
+      "path": "checkpoints/stage9_ab_20261007_164005_806793/A_no_aug_best.pth",
+      "bytes": 551457,
+      "sha256": "7d129d0815b9309ba50c7a86770156e11994594decc6a35611fdc2415f578f48"
+    },
+    {
+      "path": "checkpoints/stage9_ab_20261007_164005_806793/A_no_aug_last.pth",
+      "bytes": 551457,
+      "sha256": "6b222ada1c6ffe28dedc5a6861f16d967c47b98497729b72724055966ca14a80"
+    },
+    {
+      "path": "checkpoints/stage9_ab_20261007_164005_806793/B_crop_flip_best.pth",
+      "bytes": 551499,
+      "sha256": "d980e1252aefe3b1efbc06a8a4300715274cda61f3d1498afd60e77649d9179e"
+    },
+    {
+      "path": "checkpoints/stage9_ab_20261007_164005_806793/B_crop_flip_last.pth",
+      "bytes": 551499,
+      "sha256": "4c9dfaddc23554a3a52eaf0001df2c7de8ac8318c802c1475c795c1700150403"
+    }
+  ]
+}

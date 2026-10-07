@@ -1,0 +1,39 @@
+{
+  "source_run": "stage12_lr_20261007_195820_358131",
+  "group": "B_lr_0p0003",
+  "selected_epoch": 5,
+  "test_loss": 0.5504097528081388,
+  "test_accuracy": 0.8148,
+  "test_correct": 8148,
+  "test_errors": 1852,
+  "test_images": 10000,
+  "batches_evaluated": 1250,
+  "evaluation_seconds": 3.972012900048867,
+  "source_validation_accuracy": 0.8246,
+  "source_validation_loss": 0.5250091591117904,
+  "test_minus_validation_percentage_points": -0.9800000000000031,
+  "first_batch": {
+    "images_shape": [
+      8,
+      3,
+      32,
+      32
+    ],
+    "logits_shape": [
+      8,
+      10
+    ],
+    "model_training": false,
+    "grad_enabled": false,
+    "logits_requires_grad": false,
+    "labels_shape": [
+      8
+    ],
+    "labels_dtype": "torch.int64"
+  },
+  "strict_checkpoint_load": true,
+  "checkpoint_tensors_finite": true,
+  "model_state_unchanged": true,
+  "protected_files_unchanged": true,
+  "scope": "One evaluation of the selected existing checkpoint; no training or test-based selection"
+}

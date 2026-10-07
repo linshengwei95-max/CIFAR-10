@@ -1,0 +1,30 @@
+{
+  "selection_rule": "Highest validation accuracy; ties keep the earlier epoch",
+  "groups": {
+    "SimpleCNN": {
+      "parameter_count": 136874,
+      "best_epoch": 5,
+      "best_val_accuracy": 0.6563,
+      "epochs_completed": 5,
+      "optimizer_steps": 25000,
+      "total_training_seconds": 68.61663030006457,
+      "mean_epoch_training_seconds": 13.723326060012914,
+      "best_checkpoint": "checkpoints\\stage10_compare_20261007_181857_108622\\SimpleCNN_best.pth",
+      "last_checkpoint": "checkpoints\\stage10_compare_20261007_181857_108622\\SimpleCNN_last.pth"
+    },
+    "CIFAR_ResNet18": {
+      "parameter_count": 11173962,
+      "best_epoch": 5,
+      "best_val_accuracy": 0.8137,
+      "epochs_completed": 5,
+      "optimizer_steps": 25000,
+      "total_training_seconds": 341.6002682001563,
+      "mean_epoch_training_seconds": 68.32005364003126,
+      "best_checkpoint": "checkpoints\\stage10_compare_20261007_181857_108622\\CIFAR_ResNet18_best.pth",
+      "last_checkpoint": "checkpoints\\stage10_compare_20261007_181857_108622\\CIFAR_ResNet18_last.pth"
+    }
+  },
+  "ResNet18_minus_SimpleCNN_best_validation_percentage_points": 15.739999999999998,
+  "ResNet18_over_SimpleCNN_mean_epoch_training_seconds": 4.97838886442424,
+  "timing_scope": "Training loop only; first epoch included; evaluation and saving excluded"
+}

@@ -1,0 +1,15 @@
+Source: student-provided console output, 2026-10-07 (Asia/Shanghai).
+The tutor did not execute or repeat the model forward, training or evaluation.
+
+Device: cuda
+Training images in saved split: 40000
+images.shape: torch.Size([8, 3, 32, 32])
+labels.shape: torch.Size([8])
+outputs.shape: torch.Size([8, 10])
+outputs device: cuda:0
+outputs.requires_grad: False
+All logits finite: True
+SimpleCNN parameters: 136,874
+CIFAR ResNet18 parameters: 11,173,962
+Parameter ratio (ResNet18 / SimpleCNN): 81.64
+Scope: one untrained-model forward; no training, accuracy, timing or official test evaluation.

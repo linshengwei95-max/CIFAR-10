@@ -1,0 +1,36 @@
+Model: CIFAR ResNet18 best | Source run: stage10_compare_20261007_181857_108622
+Scope: full saved validation split (10000 images); batch_size=8
+Matrix: rows = true classes; columns = predicted classes
+Device: cuda
+Loaded best checkpoint: E:\CIFAR-10\checkpoints\stage10_compare_20261007_181857_108622\CIFAR_ResNet18_best.pth
+Selected best epoch: 5
+First batch shapes: torch.Size([8, 3, 32, 32]) torch.Size([8]) torch.Size([8, 10]) torch.Size([8])
+Validation analysis | Batch 1/1250 | Images counted: 8
+Validation analysis | Batch 250/1250 | Images counted: 2000
+Validation analysis | Batch 500/1250 | Images counted: 4000
+Validation analysis | Batch 750/1250 | Images counted: 6000
+Validation analysis | Batch 1000/1250 | Images counted: 8000
+Validation analysis | Batch 1250/1250 | Images counted: 10000
+Confusion matrix shape: torch.Size([10, 10])
+Validation images counted: 10000 | Correct: 8137 | Errors: 1863
+Validation accuracy: 81.37%
+Source recorded best validation accuracy: 81.37%
+Per-class recall (correct / true-class images):
+airplane: 912/1000 = 91.20%
+automobile: 873/1000 = 87.30%
+bird: 635/1000 = 63.50%
+cat: 698/1000 = 69.80%
+deer: 747/1000 = 74.70%
+dog: 676/1000 = 67.60%
+frog: 860/1000 = 86.00%
+horse: 897/1000 = 89.70%
+ship: 907/1000 = 90.70%
+truck: 932/1000 = 93.20%
+Top 5 directed error pairs:
+dog -> cat: 155
+bird -> airplane: 101
+cat -> dog: 94
+deer -> horse: 93
+automobile -> truck: 90
+Confusion figure saved to: E:\CIFAR-10\outputs\stage11_confusion_20261007_192127_802251\confusion_matrix.png
+Confusion records saved to: E:\CIFAR-10\outputs\stage11_confusion_20261007_192127_802251\confusion.json

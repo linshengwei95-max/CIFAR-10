@@ -1,0 +1,381 @@
+Device: cuda
+Loaded model parameters from: E:\CIFAR-10\checkpoints\stage5_last.pth
+Evaluation batch_size: 8
+Train evaluation | Batch 1/6250 | Images evaluated: 8
+Train evaluation | Batch 1000/6250 | Images evaluated: 8000
+Train evaluation | Batch 2000/6250 | Images evaluated: 16000
+Train evaluation | Batch 3000/6250 | Images evaluated: 24000
+Train evaluation | Batch 4000/6250 | Images evaluated: 32000
+Train evaluation | Batch 5000/6250 | Images evaluated: 40000
+Train evaluation | Batch 6000/6250 | Images evaluated: 48000
+Train evaluation | Batch 6250/6250 | Images evaluated: 50000
+Train images evaluated: 50000
+Train correct predictions: 35863
+Train mean evaluation loss: 0.800134
+Train accuracy: 71.73%
+Test evaluation | Batch 1/1250 | Images evaluated: 8
+Test evaluation | Batch 1000/1250 | Images evaluated: 8000
+Test evaluation | Batch 1250/1250 | Images evaluated: 10000
+Test images evaluated: 10000
+Test correct predictions: 6593
+Test mean evaluation loss: 0.981316
+Test accuracy: 65.93%
+(base) PS C:\Users\14235> & 'C:\Users\14235\anaconda3\envs\pytorch_dev\python.exe' 'E:\CIFAR-10\stage9_train_ab.py' --train
+A: ToTensor | B: RandomCrop(32, padding=4) + Flip(p=0.5) + ToTensor
+Shared: SimpleCNN, CrossEntropyLoss, Adam(lr=0.001), batch_size=8, epochs=5
+Seeds: initialization=42, sample order=43, augmentation=44
+Selection: highest validation accuracy; ties keep the earlier epoch.
+Device: cuda | Train: 40000 | Validation: 10000
+Split reused from: E:\CIFAR-10\outputs\stage9_split_seed42.json
+Results directory: E:\CIFAR-10\outputs\stage9_ab_20261007_164005_806793
+A_no_aug | Epoch 1/5 | Batch 1/5000 | Mean training loss so far: 2.305094
+A_no_aug | Epoch 1/5 | Batch 1000/5000 | Mean training loss so far: 1.848114
+A_no_aug | Epoch 1/5 | Batch 2000/5000 | Mean training loss so far: 1.701961
+A_no_aug | Epoch 1/5 | Batch 3000/5000 | Mean training loss so far: 1.618502
+A_no_aug | Epoch 1/5 | Batch 4000/5000 | Mean training loss so far: 1.566814
+A_no_aug | Epoch 1/5 | Batch 5000/5000 | Mean training loss so far: 1.523609
+A_no_aug Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+A_no_aug Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+A_no_aug Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+A_no_aug Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+A_no_aug Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+A_no_aug Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+A_no_aug Validation evaluation | Batch 1/1250 | Images evaluated: 8
+A_no_aug Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+A_no_aug Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+A_no_aug | Epoch 1/5 completed | Training loss: 1.523609 | Train accuracy (plain): 52.44% | Validation loss: 1.342852 | Validation accuracy: 51.91% | Best epoch: 1
+A_no_aug | Epoch 2/5 | Batch 1/5000 | Mean training loss so far: 1.887057
+A_no_aug | Epoch 2/5 | Batch 1000/5000 | Mean training loss so far: 1.265009
+A_no_aug | Epoch 2/5 | Batch 2000/5000 | Mean training loss so far: 1.248847
+A_no_aug | Epoch 2/5 | Batch 3000/5000 | Mean training loss so far: 1.230207
+A_no_aug | Epoch 2/5 | Batch 4000/5000 | Mean training loss so far: 1.217260
+A_no_aug | Epoch 2/5 | Batch 5000/5000 | Mean training loss so far: 1.202539
+A_no_aug Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+A_no_aug Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+A_no_aug Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+A_no_aug Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+A_no_aug Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+A_no_aug Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+A_no_aug Validation evaluation | Batch 1/1250 | Images evaluated: 8
+A_no_aug Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+A_no_aug Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+A_no_aug | Epoch 2/5 completed | Training loss: 1.202539 | Train accuracy (plain): 60.76% | Validation loss: 1.173291 | Validation accuracy: 58.29% | Best epoch: 2
+A_no_aug | Epoch 3/5 | Batch 1/5000 | Mean training loss so far: 0.523505
+A_no_aug | Epoch 3/5 | Batch 1000/5000 | Mean training loss so far: 1.053364
+A_no_aug | Epoch 3/5 | Batch 2000/5000 | Mean training loss so far: 1.063288
+A_no_aug | Epoch 3/5 | Batch 3000/5000 | Mean training loss so far: 1.061354
+A_no_aug | Epoch 3/5 | Batch 4000/5000 | Mean training loss so far: 1.064622
+A_no_aug | Epoch 3/5 | Batch 5000/5000 | Mean training loss so far: 1.062530
+A_no_aug Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+A_no_aug Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+A_no_aug Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+A_no_aug Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+A_no_aug Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+A_no_aug Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+A_no_aug Validation evaluation | Batch 1/1250 | Images evaluated: 8
+A_no_aug Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+A_no_aug Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+A_no_aug | Epoch 3/5 completed | Training loss: 1.062530 | Train accuracy (plain): 65.15% | Validation loss: 1.087478 | Validation accuracy: 61.78% | Best epoch: 3
+A_no_aug | Epoch 4/5 | Batch 1/5000 | Mean training loss so far: 0.912229
+A_no_aug | Epoch 4/5 | Batch 1000/5000 | Mean training loss so far: 0.976463
+A_no_aug | Epoch 4/5 | Batch 2000/5000 | Mean training loss so far: 0.979964
+A_no_aug | Epoch 4/5 | Batch 3000/5000 | Mean training loss so far: 0.976385
+A_no_aug | Epoch 4/5 | Batch 4000/5000 | Mean training loss so far: 0.970102
+A_no_aug | Epoch 4/5 | Batch 5000/5000 | Mean training loss so far: 0.970678
+A_no_aug Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+A_no_aug Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+A_no_aug Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+A_no_aug Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+A_no_aug Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+A_no_aug Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+A_no_aug Validation evaluation | Batch 1/1250 | Images evaluated: 8
+A_no_aug Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+A_no_aug Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+A_no_aug | Epoch 4/5 completed | Training loss: 0.970678 | Train accuracy (plain): 69.67% | Validation loss: 1.015862 | Validation accuracy: 64.69% | Best epoch: 4
+A_no_aug | Epoch 5/5 | Batch 1/5000 | Mean training loss so far: 1.173141
+A_no_aug | Epoch 5/5 | Batch 1000/5000 | Mean training loss so far: 0.906432
+A_no_aug | Epoch 5/5 | Batch 2000/5000 | Mean training loss so far: 0.905025
+A_no_aug | Epoch 5/5 | Batch 3000/5000 | Mean training loss so far: 0.906152
+A_no_aug | Epoch 5/5 | Batch 4000/5000 | Mean training loss so far: 0.905014
+A_no_aug | Epoch 5/5 | Batch 5000/5000 | Mean training loss so far: 0.905298
+A_no_aug Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+A_no_aug Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+A_no_aug Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+A_no_aug Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+A_no_aug Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+A_no_aug Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+A_no_aug Validation evaluation | Batch 1/1250 | Images evaluated: 8
+A_no_aug Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+A_no_aug Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+A_no_aug | Epoch 5/5 completed | Training loss: 0.905298 | Train accuracy (plain): 72.09% | Validation loss: 0.992373 | Validation accuracy: 65.63% | Best epoch: 5
+B_crop_flip | Epoch 1/5 | Batch 1/5000 | Mean training loss so far: 2.304907
+B_crop_flip | Epoch 1/5 | Batch 1000/5000 | Mean training loss so far: 2.006585
+B_crop_flip | Epoch 1/5 | Batch 2000/5000 | Mean training loss so far: 1.876567
+B_crop_flip | Epoch 1/5 | Batch 3000/5000 | Mean training loss so far: 1.805040
+B_crop_flip | Epoch 1/5 | Batch 4000/5000 | Mean training loss so far: 1.758234
+B_crop_flip | Epoch 1/5 | Batch 5000/5000 | Mean training loss so far: 1.716085
+B_crop_flip Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+B_crop_flip Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+B_crop_flip Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+B_crop_flip Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+B_crop_flip Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+B_crop_flip Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+B_crop_flip Validation evaluation | Batch 1/1250 | Images evaluated: 8
+B_crop_flip Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+B_crop_flip Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+B_crop_flip | Epoch 1/5 completed | Training loss: 1.716085 | Train accuracy (plain): 43.45% | Validation loss: 1.520704 | Validation accuracy: 43.84% | Best epoch: 1
+B_crop_flip | Epoch 2/5 | Batch 1/5000 | Mean training loss so far: 1.687199
+B_crop_flip | Epoch 2/5 | Batch 1000/5000 | Mean training loss so far: 1.512298
+B_crop_flip | Epoch 2/5 | Batch 2000/5000 | Mean training loss so far: 1.498910
+B_crop_flip | Epoch 2/5 | Batch 3000/5000 | Mean training loss so far: 1.477297
+B_crop_flip | Epoch 2/5 | Batch 4000/5000 | Mean training loss so far: 1.467236
+B_crop_flip | Epoch 2/5 | Batch 5000/5000 | Mean training loss so far: 1.454450
+B_crop_flip Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+B_crop_flip Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+B_crop_flip Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+B_crop_flip Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+B_crop_flip Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+B_crop_flip Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+B_crop_flip Validation evaluation | Batch 1/1250 | Images evaluated: 8
+B_crop_flip Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+B_crop_flip Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+B_crop_flip | Epoch 2/5 completed | Training loss: 1.454450 | Train accuracy (plain): 54.57% | Validation loss: 1.261118 | Validation accuracy: 54.67% | Best epoch: 2
+B_crop_flip | Epoch 3/5 | Batch 1/5000 | Mean training loss so far: 1.234960
+B_crop_flip | Epoch 3/5 | Batch 1000/5000 | Mean training loss so far: 1.360867
+B_crop_flip | Epoch 3/5 | Batch 2000/5000 | Mean training loss so far: 1.360918
+B_crop_flip | Epoch 3/5 | Batch 3000/5000 | Mean training loss so far: 1.353409
+B_crop_flip | Epoch 3/5 | Batch 4000/5000 | Mean training loss so far: 1.349662
+B_crop_flip | Epoch 3/5 | Batch 5000/5000 | Mean training loss so far: 1.342697
+B_crop_flip Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+B_crop_flip Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+B_crop_flip Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+B_crop_flip Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+B_crop_flip Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+B_crop_flip Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+B_crop_flip Validation evaluation | Batch 1/1250 | Images evaluated: 8
+B_crop_flip Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+B_crop_flip Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+B_crop_flip | Epoch 3/5 completed | Training loss: 1.342697 | Train accuracy (plain): 57.76% | Validation loss: 1.177577 | Validation accuracy: 58.23% | Best epoch: 3
+B_crop_flip | Epoch 4/5 | Batch 1/5000 | Mean training loss so far: 1.397732
+B_crop_flip | Epoch 4/5 | Batch 1000/5000 | Mean training loss so far: 1.275916
+B_crop_flip | Epoch 4/5 | Batch 2000/5000 | Mean training loss so far: 1.279589
+B_crop_flip | Epoch 4/5 | Batch 3000/5000 | Mean training loss so far: 1.274180
+B_crop_flip | Epoch 4/5 | Batch 4000/5000 | Mean training loss so far: 1.266912
+B_crop_flip | Epoch 4/5 | Batch 5000/5000 | Mean training loss so far: 1.259096
+B_crop_flip Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+B_crop_flip Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+B_crop_flip Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+B_crop_flip Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+B_crop_flip Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+B_crop_flip Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+B_crop_flip Validation evaluation | Batch 1/1250 | Images evaluated: 8
+B_crop_flip Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+B_crop_flip Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+B_crop_flip | Epoch 4/5 completed | Training loss: 1.259096 | Train accuracy (plain): 62.13% | Validation loss: 1.077621 | Validation accuracy: 61.77% | Best epoch: 4
+B_crop_flip | Epoch 5/5 | Batch 1/5000 | Mean training loss so far: 1.260364
+B_crop_flip | Epoch 5/5 | Batch 1000/5000 | Mean training loss so far: 1.219961
+B_crop_flip | Epoch 5/5 | Batch 2000/5000 | Mean training loss so far: 1.217424
+B_crop_flip | Epoch 5/5 | Batch 3000/5000 | Mean training loss so far: 1.215298
+B_crop_flip | Epoch 5/5 | Batch 4000/5000 | Mean training loss so far: 1.207886
+B_crop_flip | Epoch 5/5 | Batch 5000/5000 | Mean training loss so far: 1.202140
+B_crop_flip Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+B_crop_flip Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+B_crop_flip Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+B_crop_flip Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+B_crop_flip Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+B_crop_flip Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+B_crop_flip Validation evaluation | Batch 1/1250 | Images evaluated: 8
+B_crop_flip Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+B_crop_flip Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+B_crop_flip | Epoch 5/5 completed | Training loss: 1.202140 | Train accuracy (plain): 63.40% | Validation loss: 1.051757 | Validation accuracy: 63.18% | Best epoch: 5
+A/B validation comparison saved to: E:\CIFAR-10\outputs\stage9_ab_20261007_164005_806793\comparison.json
+(base) PS C:\Users\14235> & 'C:\Users\14235\anaconda3\envs\pytorch_dev\python.exe' 'E:\CIFAR-10\stage10_forward.py'
+Device: cuda
+Training images in saved split: 40000
+images.shape: torch.Size([8, 3, 32, 32])
+labels.shape: torch.Size([8])
+outputs.shape: torch.Size([8, 10])
+outputs device: cuda:0
+outputs.requires_grad: False
+All logits finite: True
+SimpleCNN parameters: 136,874
+CIFAR ResNet18 parameters: 11,173,962
+Parameter ratio (ResNet18 / SimpleCNN): 81.64
+Scope: one untrained-model forward; no training, accuracy, timing or official test evaluation.
+(base) PS C:\Users\14235> & 'C:\Users\14235\anaconda3\envs\pytorch_dev\python.exe' 'E:\CIFAR-10\stage10_train_compare.py'
+Models: SimpleCNN, CIFAR ResNet18 (random initialization for each)
+Shared: saved 40000/10000 split, ToTensor, Adam(lr=0.001), batch_size=8, epochs=5
+Seeds: initialization=42, sample order=43
+Selection: highest validation accuracy; ties keep the earlier epoch.
+Timing: training loop only; evaluation and file saving excluded.
+Training not started. Default mode prints config only; add --train explicitly to train.
+(base) PS C:\Users\14235> & 'C:\Users\14235\anaconda3\envs\pytorch_dev\python.exe' 'E:\CIFAR-10\stage10_train_compare.py' --train
+Models: SimpleCNN, CIFAR ResNet18 (random initialization for each)
+Shared: saved 40000/10000 split, ToTensor, Adam(lr=0.001), batch_size=8, epochs=5
+Seeds: initialization=42, sample order=43
+Selection: highest validation accuracy; ties keep the earlier epoch.
+Timing: training loop only; evaluation and file saving excluded.
+Device: cuda | Train: 40000 | Validation: 10000
+Split reused from: E:\CIFAR-10\outputs\stage9_split_seed42.json
+Results directory: E:\CIFAR-10\outputs\stage10_compare_20261007_181857_108622
+SimpleCNN | Epoch 1/5 | Batch 1/5000 | Mean training loss so far: 2.305094
+SimpleCNN | Epoch 1/5 | Batch 1000/5000 | Mean training loss so far: 1.848114
+SimpleCNN | Epoch 1/5 | Batch 2000/5000 | Mean training loss so far: 1.701961
+SimpleCNN | Epoch 1/5 | Batch 3000/5000 | Mean training loss so far: 1.618502
+SimpleCNN | Epoch 1/5 | Batch 4000/5000 | Mean training loss so far: 1.566814
+SimpleCNN | Epoch 1/5 | Batch 5000/5000 | Mean training loss so far: 1.523609
+SimpleCNN Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+SimpleCNN Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+SimpleCNN Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+SimpleCNN Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+SimpleCNN Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+SimpleCNN Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+SimpleCNN Validation evaluation | Batch 1/1250 | Images evaluated: 8
+SimpleCNN Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+SimpleCNN Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+SimpleCNN | Epoch 1/5 completed | Training loss: 1.523609 | Training seconds: 14.687 | Train accuracy: 52.44% | Validation loss: 1.342852 | Validation accuracy: 51.91% | Best epoch: 1
+SimpleCNN | Epoch 2/5 | Batch 1/5000 | Mean training loss so far: 1.887057
+SimpleCNN | Epoch 2/5 | Batch 1000/5000 | Mean training loss so far: 1.265009
+SimpleCNN | Epoch 2/5 | Batch 2000/5000 | Mean training loss so far: 1.248847
+SimpleCNN | Epoch 2/5 | Batch 3000/5000 | Mean training loss so far: 1.230207
+SimpleCNN | Epoch 2/5 | Batch 4000/5000 | Mean training loss so far: 1.217260
+SimpleCNN | Epoch 2/5 | Batch 5000/5000 | Mean training loss so far: 1.202539
+SimpleCNN Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+SimpleCNN Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+SimpleCNN Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+SimpleCNN Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+SimpleCNN Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+SimpleCNN Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+SimpleCNN Validation evaluation | Batch 1/1250 | Images evaluated: 8
+SimpleCNN Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+SimpleCNN Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+SimpleCNN | Epoch 2/5 completed | Training loss: 1.202539 | Training seconds: 14.403 | Train accuracy: 60.76% | Validation loss: 1.173291 | Validation accuracy: 58.29% | Best epoch: 2
+SimpleCNN | Epoch 3/5 | Batch 1/5000 | Mean training loss so far: 0.523505
+SimpleCNN | Epoch 3/5 | Batch 1000/5000 | Mean training loss so far: 1.053364
+SimpleCNN | Epoch 3/5 | Batch 2000/5000 | Mean training loss so far: 1.063288
+SimpleCNN | Epoch 3/5 | Batch 3000/5000 | Mean training loss so far: 1.061354
+SimpleCNN | Epoch 3/5 | Batch 4000/5000 | Mean training loss so far: 1.064622
+SimpleCNN | Epoch 3/5 | Batch 5000/5000 | Mean training loss so far: 1.062530
+SimpleCNN Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+SimpleCNN Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+SimpleCNN Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+SimpleCNN Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+SimpleCNN Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+SimpleCNN Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+SimpleCNN Validation evaluation | Batch 1/1250 | Images evaluated: 8
+SimpleCNN Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+SimpleCNN Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+SimpleCNN | Epoch 3/5 completed | Training loss: 1.062530 | Training seconds: 13.880 | Train accuracy: 65.15% | Validation loss: 1.087478 | Validation accuracy: 61.78% | Best epoch: 3
+SimpleCNN | Epoch 4/5 | Batch 1/5000 | Mean training loss so far: 0.912229
+SimpleCNN | Epoch 4/5 | Batch 1000/5000 | Mean training loss so far: 0.976463
+SimpleCNN | Epoch 4/5 | Batch 2000/5000 | Mean training loss so far: 0.979964
+SimpleCNN | Epoch 4/5 | Batch 3000/5000 | Mean training loss so far: 0.976385
+SimpleCNN | Epoch 4/5 | Batch 4000/5000 | Mean training loss so far: 0.970102
+SimpleCNN | Epoch 4/5 | Batch 5000/5000 | Mean training loss so far: 0.970678
+SimpleCNN Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+SimpleCNN Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+SimpleCNN Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+SimpleCNN Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+SimpleCNN Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+SimpleCNN Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+SimpleCNN Validation evaluation | Batch 1/1250 | Images evaluated: 8
+SimpleCNN Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+SimpleCNN Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+SimpleCNN | Epoch 4/5 completed | Training loss: 0.970678 | Training seconds: 12.739 | Train accuracy: 69.67% | Validation loss: 1.015862 | Validation accuracy: 64.69% | Best epoch: 4
+SimpleCNN | Epoch 5/5 | Batch 1/5000 | Mean training loss so far: 1.173141
+SimpleCNN | Epoch 5/5 | Batch 1000/5000 | Mean training loss so far: 0.906432
+SimpleCNN | Epoch 5/5 | Batch 2000/5000 | Mean training loss so far: 0.905025
+SimpleCNN | Epoch 5/5 | Batch 3000/5000 | Mean training loss so far: 0.906152
+SimpleCNN | Epoch 5/5 | Batch 4000/5000 | Mean training loss so far: 0.905014
+SimpleCNN | Epoch 5/5 | Batch 5000/5000 | Mean training loss so far: 0.905298
+SimpleCNN Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+SimpleCNN Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+SimpleCNN Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+SimpleCNN Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+SimpleCNN Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+SimpleCNN Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+SimpleCNN Validation evaluation | Batch 1/1250 | Images evaluated: 8
+SimpleCNN Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+SimpleCNN Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+SimpleCNN | Epoch 5/5 completed | Training loss: 0.905298 | Training seconds: 12.908 | Train accuracy: 72.09% | Validation loss: 0.992373 | Validation accuracy: 65.63% | Best epoch: 5
+CIFAR_ResNet18 | Epoch 1/5 | Batch 1/5000 | Mean training loss so far: 2.670253
+CIFAR_ResNet18 | Epoch 1/5 | Batch 1000/5000 | Mean training loss so far: 1.896971
+CIFAR_ResNet18 | Epoch 1/5 | Batch 2000/5000 | Mean training loss so far: 1.731420
+CIFAR_ResNet18 | Epoch 1/5 | Batch 3000/5000 | Mean training loss so far: 1.597773
+CIFAR_ResNet18 | Epoch 1/5 | Batch 4000/5000 | Mean training loss so far: 1.500481
+CIFAR_ResNet18 | Epoch 1/5 | Batch 5000/5000 | Mean training loss so far: 1.418763
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+CIFAR_ResNet18 Validation evaluation | Batch 1/1250 | Images evaluated: 8
+CIFAR_ResNet18 Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+CIFAR_ResNet18 Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+CIFAR_ResNet18 | Epoch 1/5 completed | Training loss: 1.418763 | Training seconds: 70.457 | Train accuracy: 64.70% | Validation loss: 1.010097 | Validation accuracy: 63.94% | Best epoch: 1
+CIFAR_ResNet18 | Epoch 2/5 | Batch 1/5000 | Mean training loss so far: 0.896967
+CIFAR_ResNet18 | Epoch 2/5 | Batch 1000/5000 | Mean training loss so far: 0.991457
+CIFAR_ResNet18 | Epoch 2/5 | Batch 2000/5000 | Mean training loss so far: 0.954911
+CIFAR_ResNet18 | Epoch 2/5 | Batch 3000/5000 | Mean training loss so far: 0.922985
+CIFAR_ResNet18 | Epoch 2/5 | Batch 4000/5000 | Mean training loss so far: 0.894674
+CIFAR_ResNet18 | Epoch 2/5 | Batch 5000/5000 | Mean training loss so far: 0.874651
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+CIFAR_ResNet18 Validation evaluation | Batch 1/1250 | Images evaluated: 8
+CIFAR_ResNet18 Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+CIFAR_ResNet18 Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+CIFAR_ResNet18 | Epoch 2/5 completed | Training loss: 0.874651 | Training seconds: 64.590 | Train accuracy: 78.18% | Validation loss: 0.720099 | Validation accuracy: 74.81% | Best epoch: 2
+CIFAR_ResNet18 | Epoch 3/5 | Batch 1/5000 | Mean training loss so far: 0.344758
+CIFAR_ResNet18 | Epoch 3/5 | Batch 1000/5000 | Mean training loss so far: 0.659057
+CIFAR_ResNet18 | Epoch 3/5 | Batch 2000/5000 | Mean training loss so far: 0.665506
+CIFAR_ResNet18 | Epoch 3/5 | Batch 3000/5000 | Mean training loss so far: 0.656383
+CIFAR_ResNet18 | Epoch 3/5 | Batch 4000/5000 | Mean training loss so far: 0.650038
+CIFAR_ResNet18 | Epoch 3/5 | Batch 5000/5000 | Mean training loss so far: 0.644018
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+CIFAR_ResNet18 Validation evaluation | Batch 1/1250 | Images evaluated: 8
+CIFAR_ResNet18 Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+CIFAR_ResNet18 Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+CIFAR_ResNet18 | Epoch 3/5 completed | Training loss: 0.644018 | Training seconds: 67.636 | Train accuracy: 84.13% | Validation loss: 0.616763 | Validation accuracy: 78.46% | Best epoch: 3
+CIFAR_ResNet18 | Epoch 4/5 | Batch 1/5000 | Mean training loss so far: 0.216825
+CIFAR_ResNet18 | Epoch 4/5 | Batch 1000/5000 | Mean training loss so far: 0.478936
+CIFAR_ResNet18 | Epoch 4/5 | Batch 2000/5000 | Mean training loss so far: 0.489330
+CIFAR_ResNet18 | Epoch 4/5 | Batch 3000/5000 | Mean training loss so far: 0.484335
+CIFAR_ResNet18 | Epoch 4/5 | Batch 4000/5000 | Mean training loss so far: 0.486524
+CIFAR_ResNet18 | Epoch 4/5 | Batch 5000/5000 | Mean training loss so far: 0.483879
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+CIFAR_ResNet18 Validation evaluation | Batch 1/1250 | Images evaluated: 8
+CIFAR_ResNet18 Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+CIFAR_ResNet18 Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+CIFAR_ResNet18 | Epoch 4/5 completed | Training loss: 0.483879 | Training seconds: 69.138 | Train accuracy: 89.20% | Validation loss: 0.566555 | Validation accuracy: 80.71% | Best epoch: 4
+CIFAR_ResNet18 | Epoch 5/5 | Batch 1/5000 | Mean training loss so far: 0.421833
+CIFAR_ResNet18 | Epoch 5/5 | Batch 1000/5000 | Mean training loss so far: 0.349146
+CIFAR_ResNet18 | Epoch 5/5 | Batch 2000/5000 | Mean training loss so far: 0.352206
+CIFAR_ResNet18 | Epoch 5/5 | Batch 3000/5000 | Mean training loss so far: 0.354608
+CIFAR_ResNet18 | Epoch 5/5 | Batch 4000/5000 | Mean training loss so far: 0.354630
+CIFAR_ResNet18 | Epoch 5/5 | Batch 5000/5000 | Mean training loss so far: 0.358186
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1/5000 | Images evaluated: 8
+CIFAR_ResNet18 Train (plain) evaluation | Batch 1000/5000 | Images evaluated: 8000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 2000/5000 | Images evaluated: 16000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 3000/5000 | Images evaluated: 24000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 4000/5000 | Images evaluated: 32000
+CIFAR_ResNet18 Train (plain) evaluation | Batch 5000/5000 | Images evaluated: 40000
+CIFAR_ResNet18 Validation evaluation | Batch 1/1250 | Images evaluated: 8
+CIFAR_ResNet18 Validation evaluation | Batch 1000/1250 | Images evaluated: 8000
+CIFAR_ResNet18 Validation evaluation | Batch 1250/1250 | Images evaluated: 10000
+CIFAR_ResNet18 | Epoch 5/5 completed | Training loss: 0.358186 | Training seconds: 69.778 | Train accuracy: 92.40% | Validation loss: 0.569246 | Validation accuracy: 81.37% | Best epoch: 5
+Model validation/time comparison saved to: E:\CIFAR-10\outputs\stage10_compare_20261007_181857_108622\comparison.json

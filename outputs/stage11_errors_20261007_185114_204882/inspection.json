@@ -1,0 +1,592 @@
+{
+  "source_run": "stage10_compare_20261007_181857_108622",
+  "model": "CIFAR_ResNet18",
+  "best_epoch": 5,
+  "checkpoint": "checkpoints\\stage10_compare_20261007_181857_108622\\CIFAR_ResNet18_best.pth",
+  "split_sha256": "f779d45a789abda16052bdd7c72f46e6e5e3c66d2fc12a1ad755eaa6762abb7d",
+  "device": "cuda",
+  "transform": "ToTensor",
+  "shuffle": false,
+  "images_inspected": 64,
+  "errors_in_observed_images": 10,
+  "errors_displayed": 6,
+  "records": [
+    {
+      "validation_position": 0,
+      "source_index": 3728,
+      "true_id": 3,
+      "true_class": "cat",
+      "predicted_id": 3,
+      "predicted_class": "cat",
+      "is_error": false
+    },
+    {
+      "validation_position": 1,
+      "source_index": 40376,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 2,
+      "source_index": 37915,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 5,
+      "predicted_class": "dog",
+      "is_error": false
+    },
+    {
+      "validation_position": 3,
+      "source_index": 13375,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 5,
+      "predicted_class": "dog",
+      "is_error": false
+    },
+    {
+      "validation_position": 4,
+      "source_index": 42888,
+      "true_id": 6,
+      "true_class": "frog",
+      "predicted_id": 7,
+      "predicted_class": "horse",
+      "is_error": true
+    },
+    {
+      "validation_position": 5,
+      "source_index": 23668,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 5,
+      "predicted_class": "dog",
+      "is_error": false
+    },
+    {
+      "validation_position": 6,
+      "source_index": 48034,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 1,
+      "predicted_class": "automobile",
+      "is_error": true
+    },
+    {
+      "validation_position": 7,
+      "source_index": 13269,
+      "true_id": 4,
+      "true_class": "deer",
+      "predicted_id": 4,
+      "predicted_class": "deer",
+      "is_error": false
+    },
+    {
+      "validation_position": 8,
+      "source_index": 32588,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 9,
+      "source_index": 21356,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 3,
+      "predicted_class": "cat",
+      "is_error": true
+    },
+    {
+      "validation_position": 10,
+      "source_index": 40865,
+      "true_id": 2,
+      "true_class": "bird",
+      "predicted_id": 2,
+      "predicted_class": "bird",
+      "is_error": false
+    },
+    {
+      "validation_position": 11,
+      "source_index": 11552,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 12,
+      "source_index": 37285,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 13,
+      "source_index": 14350,
+      "true_id": 0,
+      "true_class": "airplane",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": false
+    },
+    {
+      "validation_position": 14,
+      "source_index": 10298,
+      "true_id": 1,
+      "true_class": "automobile",
+      "predicted_id": 1,
+      "predicted_class": "automobile",
+      "is_error": false
+    },
+    {
+      "validation_position": 15,
+      "source_index": 23195,
+      "true_id": 1,
+      "true_class": "automobile",
+      "predicted_id": 1,
+      "predicted_class": "automobile",
+      "is_error": false
+    },
+    {
+      "validation_position": 16,
+      "source_index": 19378,
+      "true_id": 4,
+      "true_class": "deer",
+      "predicted_id": 4,
+      "predicted_class": "deer",
+      "is_error": false
+    },
+    {
+      "validation_position": 17,
+      "source_index": 403,
+      "true_id": 2,
+      "true_class": "bird",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": true
+    },
+    {
+      "validation_position": 18,
+      "source_index": 48588,
+      "true_id": 4,
+      "true_class": "deer",
+      "predicted_id": 4,
+      "predicted_class": "deer",
+      "is_error": false
+    },
+    {
+      "validation_position": 19,
+      "source_index": 33134,
+      "true_id": 2,
+      "true_class": "bird",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": true
+    },
+    {
+      "validation_position": 20,
+      "source_index": 11465,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 6,
+      "predicted_class": "frog",
+      "is_error": true
+    },
+    {
+      "validation_position": 21,
+      "source_index": 49518,
+      "true_id": 4,
+      "true_class": "deer",
+      "predicted_id": 4,
+      "predicted_class": "deer",
+      "is_error": false
+    },
+    {
+      "validation_position": 22,
+      "source_index": 5527,
+      "true_id": 2,
+      "true_class": "bird",
+      "predicted_id": 2,
+      "predicted_class": "bird",
+      "is_error": false
+    },
+    {
+      "validation_position": 23,
+      "source_index": 27758,
+      "true_id": 0,
+      "true_class": "airplane",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": false
+    },
+    {
+      "validation_position": 24,
+      "source_index": 30865,
+      "true_id": 1,
+      "true_class": "automobile",
+      "predicted_id": 1,
+      "predicted_class": "automobile",
+      "is_error": false
+    },
+    {
+      "validation_position": 25,
+      "source_index": 5501,
+      "true_id": 4,
+      "true_class": "deer",
+      "predicted_id": 4,
+      "predicted_class": "deer",
+      "is_error": false
+    },
+    {
+      "validation_position": 26,
+      "source_index": 18019,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 27,
+      "source_index": 2942,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 28,
+      "source_index": 21531,
+      "true_id": 0,
+      "true_class": "airplane",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": false
+    },
+    {
+      "validation_position": 29,
+      "source_index": 36547,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 30,
+      "source_index": 26746,
+      "true_id": 1,
+      "true_class": "automobile",
+      "predicted_id": 1,
+      "predicted_class": "automobile",
+      "is_error": false
+    },
+    {
+      "validation_position": 31,
+      "source_index": 40396,
+      "true_id": 6,
+      "true_class": "frog",
+      "predicted_id": 6,
+      "predicted_class": "frog",
+      "is_error": false
+    },
+    {
+      "validation_position": 32,
+      "source_index": 12116,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 33,
+      "source_index": 42768,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 34,
+      "source_index": 41686,
+      "true_id": 1,
+      "true_class": "automobile",
+      "predicted_id": 1,
+      "predicted_class": "automobile",
+      "is_error": false
+    },
+    {
+      "validation_position": 35,
+      "source_index": 42509,
+      "true_id": 6,
+      "true_class": "frog",
+      "predicted_id": 6,
+      "predicted_class": "frog",
+      "is_error": false
+    },
+    {
+      "validation_position": 36,
+      "source_index": 16252,
+      "true_id": 1,
+      "true_class": "automobile",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": true
+    },
+    {
+      "validation_position": 37,
+      "source_index": 4685,
+      "true_id": 6,
+      "true_class": "frog",
+      "predicted_id": 6,
+      "predicted_class": "frog",
+      "is_error": false
+    },
+    {
+      "validation_position": 38,
+      "source_index": 49631,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 39,
+      "source_index": 37541,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 6,
+      "predicted_class": "frog",
+      "is_error": true
+    },
+    {
+      "validation_position": 40,
+      "source_index": 48035,
+      "true_id": 7,
+      "true_class": "horse",
+      "predicted_id": 7,
+      "predicted_class": "horse",
+      "is_error": false
+    },
+    {
+      "validation_position": 41,
+      "source_index": 25119,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 42,
+      "source_index": 34785,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 43,
+      "source_index": 11658,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 44,
+      "source_index": 23746,
+      "true_id": 0,
+      "true_class": "airplane",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": false
+    },
+    {
+      "validation_position": 45,
+      "source_index": 10275,
+      "true_id": 0,
+      "true_class": "airplane",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": false
+    },
+    {
+      "validation_position": 46,
+      "source_index": 18506,
+      "true_id": 3,
+      "true_class": "cat",
+      "predicted_id": 6,
+      "predicted_class": "frog",
+      "is_error": true
+    },
+    {
+      "validation_position": 47,
+      "source_index": 42609,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 48,
+      "source_index": 19521,
+      "true_id": 4,
+      "true_class": "deer",
+      "predicted_id": 4,
+      "predicted_class": "deer",
+      "is_error": false
+    },
+    {
+      "validation_position": 49,
+      "source_index": 27333,
+      "true_id": 2,
+      "true_class": "bird",
+      "predicted_id": 2,
+      "predicted_class": "bird",
+      "is_error": false
+    },
+    {
+      "validation_position": 50,
+      "source_index": 22484,
+      "true_id": 3,
+      "true_class": "cat",
+      "predicted_id": 3,
+      "predicted_class": "cat",
+      "is_error": false
+    },
+    {
+      "validation_position": 51,
+      "source_index": 47177,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 52,
+      "source_index": 12519,
+      "true_id": 2,
+      "true_class": "bird",
+      "predicted_id": 2,
+      "predicted_class": "bird",
+      "is_error": false
+    },
+    {
+      "validation_position": 53,
+      "source_index": 48099,
+      "true_id": 7,
+      "true_class": "horse",
+      "predicted_id": 7,
+      "predicted_class": "horse",
+      "is_error": false
+    },
+    {
+      "validation_position": 54,
+      "source_index": 36574,
+      "true_id": 0,
+      "true_class": "airplane",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": false
+    },
+    {
+      "validation_position": 55,
+      "source_index": 8239,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 5,
+      "predicted_class": "dog",
+      "is_error": false
+    },
+    {
+      "validation_position": 56,
+      "source_index": 27070,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 57,
+      "source_index": 4876,
+      "true_id": 3,
+      "true_class": "cat",
+      "predicted_id": 3,
+      "predicted_class": "cat",
+      "is_error": false
+    },
+    {
+      "validation_position": 58,
+      "source_index": 22531,
+      "true_id": 8,
+      "true_class": "ship",
+      "predicted_id": 8,
+      "predicted_class": "ship",
+      "is_error": false
+    },
+    {
+      "validation_position": 59,
+      "source_index": 31869,
+      "true_id": 9,
+      "true_class": "truck",
+      "predicted_id": 9,
+      "predicted_class": "truck",
+      "is_error": false
+    },
+    {
+      "validation_position": 60,
+      "source_index": 2054,
+      "true_id": 5,
+      "true_class": "dog",
+      "predicted_id": 5,
+      "predicted_class": "dog",
+      "is_error": false
+    },
+    {
+      "validation_position": 61,
+      "source_index": 13439,
+      "true_id": 3,
+      "true_class": "cat",
+      "predicted_id": 3,
+      "predicted_class": "cat",
+      "is_error": false
+    },
+    {
+      "validation_position": 62,
+      "source_index": 23804,
+      "true_id": 0,
+      "true_class": "airplane",
+      "predicted_id": 0,
+      "predicted_class": "airplane",
+      "is_error": false
+    },
+    {
+      "validation_position": 63,
+      "source_index": 5075,
+      "true_id": 4,
+      "true_class": "deer",
+      "predicted_id": 6,
+      "predicted_class": "frog",
+      "is_error": true
+    }
+  ],
+  "scope": "First saved validation images only; this sample is for visual observation, not a full-set performance estimate"
+}

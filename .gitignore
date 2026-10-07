@@ -1,0 +1,31 @@
+# 本机运行环境和Python缓存
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+
+# 原始公开数据可重新下载；已有模型权重保存到GitHub Release附件
+data/
+checkpoints/
+*.pth
+*.pt
+*.zip
+*.tar.gz
+
+# 本地导师约定与个人学习交接记录
+AGENTS.md
+PROJECT_HANDOFF.md
+
+# macOS移动硬盘附属文件
+.DS_Store
+._*
+.Trashes/
+.Spotlight-V100/
+
+# 本机凭据及编辑器文件
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

@@ -1,0 +1,25 @@
+来源：学生在PowerShell运行stage5_train_one_epoch.py后贴回的输出。
+记录日期：2026-10-07（Asia/Shanghai）。导师未重复执行训练。
+
+Device: cuda
+Training images: 50000
+batch_size: 8
+Batches in this epoch: 6250
+Batch 1/6250 | batch loss: 2.2542 | mean training loss so far: 2.2542
+Batch 500/6250 | batch loss: 1.6106 | mean training loss so far: 2.0914
+Batch 1000/6250 | batch loss: 0.9541 | mean training loss so far: 1.9269
+Batch 1500/6250 | batch loss: 1.3169 | mean training loss so far: 1.8310
+Batch 2000/6250 | batch loss: 1.0321 | mean training loss so far: 1.7619
+Batch 2500/6250 | batch loss: 1.6947 | mean training loss so far: 1.7074
+Batch 3000/6250 | batch loss: 1.1890 | mean training loss so far: 1.6617
+Batch 3500/6250 | batch loss: 1.9709 | mean training loss so far: 1.6233
+Batch 4000/6250 | batch loss: 1.0402 | mean training loss so far: 1.5921
+Batch 4500/6250 | batch loss: 1.4449 | mean training loss so far: 1.5649
+Batch 5000/6250 | batch loss: 1.2035 | mean training loss so far: 1.5415
+Batch 5500/6250 | batch loss: 0.7628 | mean training loss so far: 1.5197
+Batch 6000/6250 | batch loss: 1.1536 | mean training loss so far: 1.5005
+Batch 6250/6250 | batch loss: 1.4585 | mean training loss so far: 1.4926
+Epochs completed: 1
+Training images seen: 50000
+Optimizer steps: 6250
+Mean training loss: 1.492572183804512

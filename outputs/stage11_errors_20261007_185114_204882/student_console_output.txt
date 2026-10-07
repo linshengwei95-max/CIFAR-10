@@ -1,0 +1,16 @@
+Model: CIFAR ResNet18 best | Source run: stage10_compare_20261007_181857_108622
+Scope: first 64 saved validation images; batch_size=8
+Display: up to 6 errors in validation order
+Device: cuda
+Loaded best checkpoint: E:\CIFAR-10\checkpoints\stage10_compare_20261007_181857_108622\CIFAR_ResNet18_best.pth
+Selected best epoch: 5
+First batch shapes: torch.Size([8, 3, 32, 32]) torch.Size([8]) torch.Size([8, 10]) torch.Size([8])
+Images inspected: 64 | Errors in these images: 10
+Index 42888 | True: frog | Predicted: horse
+Index 48034 | True: truck | Predicted: automobile
+Index 21356 | True: dog | Predicted: cat
+Index 403 | True: bird | Predicted: airplane
+Index 33134 | True: bird | Predicted: airplane
+Index 11465 | True: dog | Predicted: frog
+Error preview saved to: E:\CIFAR-10\outputs\stage11_errors_20261007_185114_204882\error_examples.png
+Inspection records saved to: E:\CIFAR-10\outputs\stage11_errors_20261007_185114_204882\inspection.json

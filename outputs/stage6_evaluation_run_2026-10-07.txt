@@ -1,0 +1,26 @@
+来源：学生在PowerShell运行stage6_evaluate.py后贴回的完整输出。
+记录日期：2026-10-07（Asia/Shanghai）。导师未执行或重复评估、未训练。
+
+Device: cuda
+Loaded model parameters from: E:\CIFAR-10\checkpoints\stage5_last.pth
+Evaluation batch_size: 8
+Train evaluation | Batch 1/6250 | Images evaluated: 8
+Train evaluation | Batch 1000/6250 | Images evaluated: 8000
+Train evaluation | Batch 2000/6250 | Images evaluated: 16000
+Train evaluation | Batch 3000/6250 | Images evaluated: 24000
+Train evaluation | Batch 4000/6250 | Images evaluated: 32000
+Train evaluation | Batch 5000/6250 | Images evaluated: 40000
+Train evaluation | Batch 6000/6250 | Images evaluated: 48000
+Train evaluation | Batch 6250/6250 | Images evaluated: 50000
+Train images evaluated: 50000
+Train correct predictions: 35863
+Train mean evaluation loss: 0.800134
+Train accuracy: 71.73%
+Test evaluation | Batch 1/1250 | Images evaluated: 8
+Test evaluation | Batch 1000/1250 | Images evaluated: 8000
+Test evaluation | Batch 1250/1250 | Images evaluated: 10000
+Test images evaluated: 10000
+Test correct predictions: 6593
+Test mean evaluation loss: 0.981316
+Test accuracy: 65.93%
+

@@ -1,0 +1,40 @@
+Stage11 student-output and saved-observation verification: 2026-10-07 (Asia/Shanghai)
+Source: student console output pasted in chat; saved as UTF-8 text, not an original attached byte stream.
+Run: stage11_errors_20261007_185114_204882
+PASS: source run/model/best epoch/device/transform match script and submitted output.
+PASS: fixed split SHA256 unchanged; 64 records correspond exactly to first 64 validation indices, in order.
+PASS: true labels match original CIFAR10 training-file labels; class names match class ids.
+PASS: is_error agrees with true_id != predicted_id for all 64 records; 10 errors and 54 correct.
+PASS: first six error ids/true/predicted classes match submitted console output.
+PASS: PNG is 1600x800; visually inspected six panels and titles agree with records.
+PASS: previous source/results/checkpoint hashes and new script/JSON/PNG unchanged during verification.
+Student runtime evidence: current script strict=True loading completed before the reported Loaded best checkpoint line, followed by 64 CUDA inference outputs and saved preview/records. ResNet18 best strict loading and this observation run are confirmed from the student execution; mentor did not repeat them.
+Scope: read/parse/hash existing files and read original dataset labels only; no torch/torchvision imports, Dataset construction, model construction/loading, forward, training, performance evaluation or official testing by mentor.
+The first six errors among this fixed sample do not establish which class pair is most frequently confused in all 10000 validation images, nor establish causal mechanisms.
+Learning status updated on 2026-10-07: original frog/dog eyes hypothesis received a correction because the first prediction was horse. Student latest follow-up answer for truck->automobile identified rectangular body shape and tires as shared features. This is an acceptable initial visual-confusion hypothesis; the current core visual-analysis check is passed. Mentor added the front-view context and limited visibility of cargo-body/length cues. No causal mechanism confirmed, and mentor additions are not recorded as independently explained by the student. No required question remains; no additional similar quiz or automatic full-set confusion-matrix run.
+
+Protected SHA256 snapshot:
+{
+  "stage10_train_compare.py": "79933b394242510a80cd56a60992d83b5bf43af3e948b2ebaa74e1b9f10272e5",
+  "models\\simple_cnn.py": "7e90ee467061fcf73713223ea43b2e41a9c0969ce5bee815dc6a9bba9063984f",
+  "models\\resnet18_cifar.py": "c13a9d7f941969456acc20c0d9f5f2311d2b4fd1958e8139649ae5455f74f77f",
+  "stage6_evaluate.py": "be4f8ab83ee2f95da0a55036b7e50c6795e5f3cc014c3f92f2ec8cdd14e272b4",
+  "stage9_train_ab.py": "c84434e85c81fe08361052dbb2afc1b0d10986a34df395dfc93132760deb7600",
+  "outputs\\stage9_split_seed42.json": "f779d45a789abda16052bdd7c72f46e6e5e3c66d2fc12a1ad755eaa6762abb7d",
+  "checkpoints\\stage5_last.pth": "f523396c58a7e30c3227dda77553f606f24a25f48374ec645620138953fdd27e",
+  "outputs\\stage10_compare_20261007_181857_108622\\config.json": "dea280daee9dd8ddafd1bfb3e91973cfcc38e6a291f1bd8e20fb4ab8bd9c3ac1",
+  "outputs\\stage10_compare_20261007_181857_108622\\SimpleCNN_metrics.json": "6cc4c7325b73c09f8ec661f62c224b5d0cf3d0d19746070e24aa566224e4a138",
+  "outputs\\stage10_compare_20261007_181857_108622\\CIFAR_ResNet18_metrics.json": "527ae836bed7ffc99dd7f6a7270b33330beb4bf68d17bb1b56e7a0f9ceac51e8",
+  "outputs\\stage10_compare_20261007_181857_108622\\comparison.json": "72f880f0e198e70e18e2700de10561796dc70977c56fb6e2c613b5b16fd1da38",
+  "checkpoints\\stage10_compare_20261007_181857_108622\\SimpleCNN_best.pth": "3ada90e650d27b82642a78d578e65397685ee6c0007f343f985491686a707643",
+  "checkpoints\\stage10_compare_20261007_181857_108622\\SimpleCNN_last.pth": "9460431617bddd2a5ab931d5ce5a9186d0bb69d49a3bc53d45dc2e649c0bab34",
+  "checkpoints\\stage10_compare_20261007_181857_108622\\CIFAR_ResNet18_best.pth": "b22068752125568113005af6977e125740c86447391c3d21a618817ec135a6c2",
+  "checkpoints\\stage10_compare_20261007_181857_108622\\CIFAR_ResNet18_last.pth": "951ebeea8e1a0668e959369bb3cb106efd25255eba01f063d887e4539e5eccad",
+  "checkpoints\\stage9_ab_20261007_164005_806793\\A_no_aug_best.pth": "7d129d0815b9309ba50c7a86770156e11994594decc6a35611fdc2415f578f48",
+  "checkpoints\\stage9_ab_20261007_164005_806793\\A_no_aug_last.pth": "6b222ada1c6ffe28dedc5a6861f16d967c47b98497729b72724055966ca14a80",
+  "checkpoints\\stage9_ab_20261007_164005_806793\\B_crop_flip_best.pth": "d980e1252aefe3b1efbc06a8a4300715274cda61f3d1498afd60e77649d9179e",
+  "checkpoints\\stage9_ab_20261007_164005_806793\\B_crop_flip_last.pth": "4c9dfaddc23554a3a52eaf0001df2c7de8ac8318c802c1475c795c1700150403",
+  "stage11_inspect_errors.py": "94897cb8c6e2e0ea5dac02320681a86a098f67edef2c96131aee071f0f60519c",
+  "outputs\\stage11_errors_20261007_185114_204882\\inspection.json": "bc1638d1bc0673e12cba8d12c372446c43ffdc0c36bed4b5a34e800c040b4653",
+  "outputs\\stage11_errors_20261007_185114_204882\\error_examples.png": "5d934daf5c2ac737ceb474cf593bcf5abfec0adc74d6091e89768d74cb771e74"
+}

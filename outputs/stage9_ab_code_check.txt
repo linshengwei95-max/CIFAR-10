@@ -1,0 +1,16 @@
+Stage 9 A/B code verification: 2026-10-07 (Asia/Shanghai)
+Python: C:\Users\14235\anaconda3\envs\pytorch_dev\python.exe
+Syntax/import: PASS
+Default-mode guard: PASS (no data/model/optimizer/device check/training/checkpoint writes)
+Actual default command: PASS (launched from C:\Users\14235; config only; exit code 0; training not started)
+Sample-order isolation: PASS (41 synthetic indices; 5 passes; extra global random draws in B)
+Initial values/storage: PASS (two new CPU SimpleCNN models; equal values, independent storage)
+Optimizer initialization: PASS (separate Adam; empty states; lr=0.001)
+Validation selection: PASS (synthetic metrics; strict improvement; ties retain earlier epoch)
+Final-epoch retention: PASS (synthetic control-flow check; 5 records; final epoch=5)
+Missing split: PASS (stops; no regeneration)
+Saved split, data report, augmentation preview, baseline document, old checkpoint: unchanged SHA256
+Saved split SHA256: f779d45a789abda16052bdd7c72f46e6e5e3c66d2fc12a1ad755eaa6762abb7d
+Scope: no CIFAR batch reads/preview rerun, no model forward/backward/optimizer step, no training,
+no actual evaluation/experimental metrics/new checkpoints, no package installation.
+Full A/B training and CUDA runtime remain unverified. Synthetic values above are not experiment results.
