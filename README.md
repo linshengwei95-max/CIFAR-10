@@ -195,13 +195,11 @@ SimpleCNN 的主要尺寸变化为：
 
 ### GitHub副本、数据与权重
 
-[公开仓库](https://github.com/linshengwei95-max/CIFAR-10) · [v1.0.0与权重附件](https://github.com/linshengwei95-max/CIFAR-10/releases/tag/v1.0.0)
+[公开仓库](https://github.com/linshengwei95-max/CIFAR-10)
 
-GitHub仓库保存源码、本文、实验配置、指标、完整输出、固定划分索引和图片。运行环境、原始CIFAR-10数据、个人导师约定和教学交接记录保留在本机。文件按原始字节提交，避免跨电脑下载时改变已有实验记录中的校验值。
+代码、文档、曲线及实验结果已保存到GitHub。模型权重上传正在处理，13份原权重完整保留在本地；权重的原路径、大小和SHA256见[权重清单](outputs/checkpoints_manifest.json)。当前选定模型的验证准确率为82.46%，官方测试准确率为81.48%。
 
-模型权重单独通过 `v1.0.0` Release 的 `cifar10-checkpoints-v1.0.0.zip` 附件保存，包含现有13份best/last权重和[权重路径、大小及SHA256清单](outputs/checkpoints_manifest.json)。下载后解压到项目根目录，会还原原有 `checkpoints/` 路径。当前选定模型是 `checkpoints/stage12_lr_20261007_195820_358131/B_lr_0p0003_best.pth`，对应验证82.46%、官方测试81.48%。
-
-在新电脑使用时，运行环境单独准备，并参照下方已记录版本；本地CIFAR-10数据可由 `stage1_inspect_data.py` 下载。仓库已保存固定划分索引，无须重新划分。阅读已有结果不需要重新训练或评估；需要使用已有权重时再下载Release附件。
+运行环境、原始CIFAR-10数据和个人教学交接记录留在本机。文件保留原始字节和换行，避免改变已有记录的校验值。
 
 ### 已验证的运行环境
 
