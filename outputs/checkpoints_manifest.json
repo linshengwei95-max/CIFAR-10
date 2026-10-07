@@ -1,4 +1,5 @@
 {
+  "storage": "GitHub v1.0.0 Release asset",
   "release_tag": "v1.0.0",
   "archive": "cifar10-checkpoints-v1.0.0.zip",
   "checkpoint_count": 13,

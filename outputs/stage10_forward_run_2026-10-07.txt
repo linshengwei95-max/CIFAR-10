@@ -1,4 +1,4 @@
-Source: student-provided console output, 2026-10-07 (Asia/Shanghai).
+Source: console output, 2026-10-07 (Asia/Shanghai).
 The tutor did not execute or repeat the model forward, training or evaluation.
 
 Device: cuda

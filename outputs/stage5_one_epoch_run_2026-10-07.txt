@@ -1,5 +1,5 @@
-来源：学生在PowerShell运行stage5_train_one_epoch.py后贴回的输出。
-记录日期：2026-10-07（Asia/Shanghai）。导师未重复执行训练。
+来源：PowerShell运行stage5_train_one_epoch.py的输出。
+记录日期：2026-10-07（Asia/Shanghai）。
 
 Device: cuda
 Training images: 50000

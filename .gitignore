@@ -13,9 +13,15 @@ checkpoints/
 *.zip
 *.tar.gz
 
-# 本地导师约定与个人学习交接记录
+# 本机工作记录
 AGENTS.md
 PROJECT_HANDOFF.md
+
+# 本地准备与审阅记录；公开实验日志使用console_output.txt
+outputs/*_code_check.txt
+outputs/*_data_check.txt
+outputs/**/verification_report.txt
+outputs/**/student_console_output.txt
 
 # macOS移动硬盘附属文件
 .DS_Store

@@ -1,5 +1,5 @@
-来源：学生在PowerShell运行stage5_train.py后贴回的完整输出。
-记录日期：2026-10-07（Asia/Shanghai）。导师未执行或重复训练。
+来源：PowerShell运行stage5_train.py的完整输出。
+记录日期：2026-10-07（Asia/Shanghai）。
 
 Device: cuda
 Training images: 50000

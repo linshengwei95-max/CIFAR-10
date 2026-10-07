@@ -46,5 +46,5 @@
     "scope": "Historical record; the current A and B groups both train afresh"
   },
   "timing_scope": "Training loop only; CUDA synchronized; evaluation and saving excluded",
-  "scope": "Student-selected learning-rate comparison; no official test-set use"
+  "scope": "Learning-rate comparison; no official test-set use"
 }

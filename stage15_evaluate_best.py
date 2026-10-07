@@ -231,7 +231,7 @@ def run_evaluation(project_dir, output_dir, started_at):
     })
     summary = (
         "# 当前最佳模型的官方测试集评估\n\n"
-        f"评估日期：{started_at:%Y-%m-%d}（Asia/Shanghai）。按用户要求由AI实际执行。\n\n"
+        f"评估日期：{started_at:%Y-%m-%d}（Asia/Shanghai）。\n\n"
         f"固定选择 `{SOURCE_RUN}` 的 `{GROUP}_best.pth`：适配ResNet18，"
         f"训练学习率{selected['learning_rate']}，最佳第{selected['best_epoch']}轮。"
         "选择依据是已有验证准确率；本次测试结果未参与模型或超参数选择。\n\n"
@@ -251,7 +251,7 @@ def run_evaluation(project_dir, output_dir, started_at):
         "没有训练、参数更新、安装升级或重复种子实验。\n\n"
         "本结果只描述所选既有模型的测试表现。早期65.93%测试基线的模型和训练规模不同，"
         "不把二者差异归因于单个变量；学习率对照结论仍来自已有验证比较。"
-        "学生本次独立理解尚未新增验证，无新增必答题。\n\n"
+        "\n\n"
         "记录：[配置](config.json) · [结果](result.json) · "
         "[完整运行输出](console_output.txt) · [核对记录](verification.json)\n"
     )

@@ -1,4 +1,4 @@
-"""阶段12：由学生选定学习率做ResNet18对照；--train才启动训练。"""
+"""阶段12：ResNet18学习率对照；--train才启动训练。"""
 
 import argparse
 from datetime import datetime
@@ -18,7 +18,7 @@ REFERENCE_RUN = "stage10_compare_20261007_181857_108622"
 
 
 def state_sha256(state):
-    """包含参数及BatchNorm统计；仅在学生明确启动训练后调用。"""
+    """包含参数及BatchNorm统计；仅在明确启动训练后调用。"""
     return hashlib.sha256(
         b"".join(value.detach().cpu().numpy().tobytes() for value in state.values())
     ).hexdigest()
@@ -191,7 +191,7 @@ def main():
             "scope": "Historical record; the current A and B groups both train afresh",
         },
         "timing_scope": "Training loop only; CUDA synchronized; evaluation and saving excluded",
-        "scope": "Student-selected learning-rate comparison; no official test-set use",
+        "scope": "Learning-rate comparison; no official test-set use",
     })
     print(f"Device: {device} | Train: {len(train_data)} | Validation: {len(val_data)}")
     print("Shared initial state SHA256:", initial_hash)
